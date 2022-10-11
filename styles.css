@@ -59,9 +59,8 @@ nav {
 
 .mobileImage {
     width: 100%;
-    max-width: 375px;
+    max-width: 400px;
     margin-bottom: 20px;
-    height: 200px;
 }
 
 h1 {
@@ -132,8 +131,7 @@ button {
 .attribution { 
     font-size: 1.1rem; 
     text-align: center; 
-    position: absolute;
-    top:96%
+    margin-bottom: 4px;
 }
 .attribution a { 
     color: var(--purple);
