@@ -1,0 +1,51 @@
+nav {
+    margin-bottom: 0;
+}
+
+
+.mobileImage {
+    display: none;
+}
+
+main {
+
+    flex-direction: row;
+    align-items: stretch;
+    padding: 0px 75px;
+    height: 75%;
+    
+}
+
+.block1 {
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 30px;
+    padding-top: 30px;
+    padding-bottom: 0px;
+    height: 100%;
+
+}
+
+h1 {
+    font-size: 6.5rem;
+    text-align: start;
+    margin-top: 50px;
+    width: 95%;
+}
+
+p {
+    text-align: justify;
+    padding-left: 0;
+    width: 90%;
+}
+
+.auspicesContainer {
+    margin-bottom: 0;
+}
+
+.desktopImage {
+    display: block;
+    padding-left: 50px;
+    width: 350px;
+
+}
