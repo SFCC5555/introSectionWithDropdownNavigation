@@ -121,7 +121,7 @@ p {
     margin-bottom: 15px;
 }
 
-button {
+.learnMore {
     background-color: var(--almostBlack);
     color: var(--almostWhite);
     padding: 15px;
@@ -130,10 +130,11 @@ button {
     font-size: 1.4rem;
     font-weight: bold;
     margin-bottom: 15px;
+    font-family: 'Epilogue', sans-serif;
 
 }
 
-button:hover {
+.learnMore:hover {
     background-color: var(--almostWhite);
     color: var(--almostBlack);
     cursor: pointer;
@@ -182,4 +183,49 @@ button:hover {
 }
 .attribution a { 
     color: var(--purple);
+ }
+
+ .mobileMenu {
+    position: absolute;
+    width: 65%;
+    height: 100vh;
+    background-color: var(--almostWhite);
+    right: 0px;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.3rem;
+    color: var(--mediumGray);
+    padding: 20px;
+    align-items: flex-start;
+ }
+
+ .closeMenu {
+    width: 26px;
+    height: 26px;
+    display: inline-block;
+    background-image: url(./images/icon-close-menu.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    align-self: flex-end;
+    margin-bottom: 25px;
+    background-size: 90%;
+ }
+
+ .mobileMenu > div {
+    margin: 10px 0px;
+ }
+
+ #mobileLogin {
+    align-self: center;
+    margin-top: 25px;
+ }
+
+ .mobileRegister {
+    align-self: stretch;
+    font-family: 'Epilogue', sans-serif;
+    border: 1px solid var(--mediumGray);
+    border-radius: 10px;
+    padding: 10px 0px;
+    background-color: var(--almostWhite);
+
  }

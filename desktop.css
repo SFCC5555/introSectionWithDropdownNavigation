@@ -168,3 +168,6 @@ p {
     background-image: url(./images/icon-planning.svg);
 }
 
+.mobileMenu {
+    display: none;
+}
