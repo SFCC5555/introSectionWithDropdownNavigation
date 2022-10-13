@@ -6,12 +6,21 @@ let companyButton=document.getElementById("companyButton");
 let companyContainer=document.querySelector("#company");
 let companyArrow=document.getElementById("arrowDownCompany");
 
+let mobileMenuContainer=document.getElementById("mobileMenuContainer");
+let mobileMenuButton=document.querySelector(".menuIconContainer");
+
+let closeMenuButton=document.querySelector(".closeMenu");
+
 
 featuresButton.addEventListener("click", renderFeatures);
 companyButton.addEventListener("click", renderCompany);
 
 document.addEventListener("click",inactiveFeaturesMenu);
 document.addEventListener("click",inactiveCompanyMenu);
+
+mobileMenuButton.addEventListener("click", renderMobileMenu);
+closeMenuButton.addEventListener("click", renderMobileMenu);
+
 
 function renderFeatures() {
     
@@ -102,4 +111,9 @@ function inactiveCompanyMenu(evento2) {
         companyContainer.classList.remove("companyContainer");
         companyArrow.classList.remove("arrowUp");
     }
+}
+
+
+function renderMobileMenu() {
+    mobileMenuContainer.classList.toggle("mobileMenu");
 }

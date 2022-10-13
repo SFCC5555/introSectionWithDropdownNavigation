@@ -18,6 +18,10 @@ html {
 
 }
 
+.inactive {
+    display: none;
+}
+
 body {
     height: 100vh;
     display: flex;
@@ -80,6 +84,7 @@ body {
     background-image: url(./images/icon-menu.svg);
     background-repeat: no-repeat;
     background-position: center;
+    cursor: pointer;
 }
 
 .mobileImage {
@@ -209,10 +214,16 @@ p {
     align-self: flex-end;
     margin-bottom: 25px;
     background-size: 90%;
+    cursor: pointer;
  }
 
  .mobileMenu > div {
     margin: 10px 0px;
+ }
+
+ .mobileMenu div:hover {
+    color:var(--almostBlack);
+    cursor: pointer;
  }
 
  #mobileLogin {
@@ -223,9 +234,54 @@ p {
  .mobileRegister {
     align-self: stretch;
     font-family: 'Epilogue', sans-serif;
-    border: 1px solid var(--mediumGray);
+    border: 1.5px solid var(--mediumGray);
     border-radius: 10px;
     padding: 10px 0px;
     background-color: var(--almostWhite);
+    color: var(--mediumGray);
 
  }
+
+ .mobileRegister:hover {
+    color:var(--almostBlack);
+    border-color: var(--almostBlack);
+    cursor: pointer;
+ }
+
+ .featuresMobileContainer div {
+    margin: 15px;
+    margin-right: 0px;
+    margin-left: 20px;
+ } 
+
+ .companyMobileContainer div {
+    margin: 15px;
+    margin-right: 0px;
+    margin-left: 20px;
+ } 
+ 
+.featuresMobileContainer span {
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 16px;
+    height: 17px;
+    margin-right:10px ;
+}
+
+
+#todoListIcon {
+    background-image: url(./images/icon-todo.svg);
+}
+
+#calendarIcon {
+    background-image: url(./images/icon-calendar.svg);
+}
+
+#remindersIcon {
+    background-image: url(./images/icon-reminders.svg);
+}
+
+#planningIcon {
+    background-image: url(./images/icon-planning.svg);
+}

@@ -1,7 +1,3 @@
-.inactive {
-    display: none;
-}
-
 .mobileNav {
     display:none
 }
@@ -150,22 +146,6 @@ p {
     background-position: center;
     width: 16px;
     height: 17px;
-}
-
-#todoListIcon {
-    background-image: url(./images/icon-todo.svg);
-}
-
-#calendarIcon {
-    background-image: url(./images/icon-calendar.svg);
-}
-
-#remindersIcon {
-    background-image: url(./images/icon-reminders.svg);
-}
-
-#planningIcon {
-    background-image: url(./images/icon-planning.svg);
 }
 
 .mobileMenu {
