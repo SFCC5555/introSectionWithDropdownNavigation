@@ -29,7 +29,6 @@ body {
     align-items: center;
     justify-content: space-between;
     background-color: var(--almostWhite);
-
 }
 
 .mobileNav {
@@ -284,4 +283,13 @@ p {
 
 #planningIcon {
     background-image: url(./images/icon-planning.svg);
+}
+
+.filterContainer {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: var(--almostBlack);
+    opacity: 75%;
 }

@@ -11,6 +11,8 @@ let mobileMenuButton=document.querySelector(".menuIconContainer");
 
 let closeMenuButton=document.querySelector(".closeMenu");
 
+let filter=document.getElementById("filter");
+
 
 featuresButton.addEventListener("click", renderFeatures);
 companyButton.addEventListener("click", renderCompany);
@@ -116,4 +118,5 @@ function inactiveCompanyMenu(evento2) {
 
 function renderMobileMenu() {
     mobileMenuContainer.classList.toggle("mobileMenu");
+    filter.classList.toggle("filterContainer");
 }
