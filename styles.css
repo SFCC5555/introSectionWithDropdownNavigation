@@ -247,11 +247,19 @@ p {
     cursor: pointer;
  }
 
+ .featuresMobileContainer {
+    display: block;
+ }
+
  .featuresMobileContainer div {
     margin: 15px;
     margin-right: 0px;
     margin-left: 20px;
  } 
+
+.companyMobileContainer {
+    display: block;
+}
 
  .companyMobileContainer div {
     margin: 15px;

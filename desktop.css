@@ -151,3 +151,7 @@ p {
 .mobileMenu {
     display: none;
 }
+
+.filterContainer {
+    display: none;
+}

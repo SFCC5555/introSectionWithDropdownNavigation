@@ -11,6 +11,13 @@ let mobileMenuButton=document.querySelector(".menuIconContainer");
 
 let closeMenuButton=document.querySelector(".closeMenu");
 
+let featuresMobile=document.getElementById("featuresMobile");
+let featuresMobileButton=document.getElementById("featuresMobileButton");
+
+let companyMobile=document.getElementById("companyMobile");
+let companyMobileButton=document.getElementById("companyMobileButton");
+
+
 let filter=document.getElementById("filter");
 
 
@@ -22,6 +29,9 @@ document.addEventListener("click",inactiveCompanyMenu);
 
 mobileMenuButton.addEventListener("click", renderMobileMenu);
 closeMenuButton.addEventListener("click", renderMobileMenu);
+
+featuresMobileButton.addEventListener("click", renderFeaturesMobile)
+companyMobileButton.addEventListener("click", renderCompanyMobile)
 
 
 function renderFeatures() {
@@ -119,4 +129,13 @@ function inactiveCompanyMenu(evento2) {
 function renderMobileMenu() {
     mobileMenuContainer.classList.toggle("mobileMenu");
     filter.classList.toggle("filterContainer");
+}
+
+function renderFeaturesMobile() {
+    featuresMobile.classList.toggle("featuresMobileContainer")
+}
+
+function renderCompanyMobile() {
+    
+    companyMobile.classList.toggle("companyMobileContainer")
 }
